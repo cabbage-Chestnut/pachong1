@@ -1,8 +1,8 @@
-import requests
-import time
-import re
+import requests#用于请求目标网站
+import time#导入时间模块
+import re#用来匹配字符串（动态、模糊的匹配），爬虫所需
 import csv
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup#用这个模块来分解网页的结构，并对其中的内容进行提取
 
 # 设置URL固定部分
 url = 'http://www.cbooo.cn/year?year='
